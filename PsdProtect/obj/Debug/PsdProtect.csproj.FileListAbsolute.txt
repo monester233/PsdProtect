@@ -1,0 +1,9 @@
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\bin\Debug\PsdProtect.exe.config
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\bin\Debug\PsdProtect.exe
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\bin\Debug\PsdProtect.pdb
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.csprojResolveAssemblyReference.cache
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.Form1.resources
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.Properties.Resources.resources
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.csproj.GenerateResource.Cache
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.exe
+E:\项目\工具\密码保护\PsdProtect\PsdProtect\obj\Debug\PsdProtect.pdb
