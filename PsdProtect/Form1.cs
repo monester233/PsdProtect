@@ -41,8 +41,8 @@ namespace PsdProtect
             /*根据记忆密码和区分代号生成加密原文*/
             string strOriginalPsd = "";
             strOriginalPsd = tbRemPsd.Text + "Monester" + tbDiffWord.Text;
-            strPsd = encodeSHA1(strOriginalPsd, Encoding.UTF8);
-            tbGenPsd.Text = strPsd;
+            strPsd = encodeMD5(strOriginalPsd, Encoding.UTF8);
+            tbGenPsd.Text = strPsd.Substring(0, 5) + strPsd.Substring(8, 5).ToLower() + "!#@*&";
             /*记录密码*/
             recordPsd();
         }
@@ -104,7 +104,7 @@ namespace PsdProtect
         /// </summary>
         private void recordPsd()
         {
-            string strFilePath = "F:\\psd.ini";
+            string strFilePath = "D:\\psd.ini";
             FileStream file = new FileStream(strFilePath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
             MRSA mrsa = new MRSA();
             StreamReader reader = new StreamReader(file);
@@ -120,6 +120,7 @@ namespace PsdProtect
 
                 if (readBuf == (tbRemPsd.Text + "Monester" + tbDiffWord.Text))   //以记录对应密码
                 {
+                    file.Close();
                     return;
                 }
                 else

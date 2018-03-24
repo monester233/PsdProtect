@@ -97,7 +97,7 @@
             // 
             this.tbGenPsd.Location = new System.Drawing.Point(127, 200);
             this.tbGenPsd.Name = "tbGenPsd";
-            this.tbGenPsd.Size = new System.Drawing.Size(221, 21);
+            this.tbGenPsd.Size = new System.Drawing.Size(145, 21);
             this.tbGenPsd.TabIndex = 7;
             // 
             // label4
